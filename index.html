@@ -54,18 +54,6 @@
 	</section>
 	<!-- Hero section ends from here -->
 
-
-	<!-- Registration section starts from here -->
-	<section id="registration">
-		<div class="reminder">
-			<p></p>
-			<h1></h1>
-		</div>
-
-	</section>
-	<!-- Registration section ends from here -->
-
-
 	<!-- Experts section starts from here -->
 	<section id="experts">
 		<h1>Science Organizing Committee</h1>
@@ -165,25 +153,22 @@
 	<!-- Experts section ends from here -->
 
 	<!-- Footer section starts from here -->
-	<footer>
-<!-- 		<div class="footer-col">
-			<h3>Guides</h3>
-			<li>Literature Review</li>
-			<li> <a href="https://www.nasa.gov/a-i-astrobiology-literature-review/">Literature Review</li>
-		</div>
- -->
-		<div class="copyright">
-			<p>
-				2024 | Website managed by <a href="https://www.linkedin.com/in/ryan-felton-phd-astronomer/" target="_blank">Ryan Felton</a>
-			</p>
-<!-- 			<div class="pro-links">
-				<i class="fab fa-facebook"></i>
-				<i class="fab fa-instagram"></i>
-				<i class="fab fa-linkedin-in"></i>
-			</div>
- -->		</div>
-	</footer>
+		<div id="footer"></div>
+		<script>
+		    fetch('footer.html')
+		        .then(response => {
+		            if (response.ok) {
+		                return response.text();
+		            }
+		            throw new Error('Failed to load footer');
+		        })
+		        .then(data => {
+		            document.getElementById('footer').innerHTML = data;
+		        })
+		        .catch(error => console.error(error));
+		</script>
 	<!-- Footer section ends from here -->
+
 	<script>
 		// Show menu links on burger click
 		$('#menu-btn').click(function(){
