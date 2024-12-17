@@ -30,7 +30,7 @@
 					<!-- <li><a href="about.html">About Us</a></li> -->
 					<li><a href="agenda.html">In-Person Agenda</a></li>
 					<li><a href="logistics.html">Logistics</a></li>
-					<li><a href="virtualprimer.html">Virtual Primer</a></li>
+					<li><a href="primer.html">Virtual Primer</a></li>
 					<li><a href="recordings.html">Recordings</a></li>
 				</ul>
 
@@ -100,24 +100,20 @@
 
 
 	<!-- Footer section starts from here -->
-	<footer>
-<!-- 		<div class="footer-col">
-			<h3>Guides</h3>
-			<li>Literature Review</li>
-			<li> <a href="https://www.nasa.gov/a-i-astrobiology-literature-review/">Literature Review</li>
-		</div>
- -->
-		<div class="copyright">
-			<p>
-				2024 | Website managed by <a href="https://www.linkedin.com/in/ryan-felton-phd-astronomer/" target="_blank">Ryan Felton</a>
-			</p>
-<!-- 			<div class="pro-links">
-				<i class="fab fa-facebook"></i>
-				<i class="fab fa-instagram"></i>
-				<i class="fab fa-linkedin-in"></i>
-			</div>
- -->		</div>
-	</footer>
+		<div id="footer"></div>
+		<script>
+		    fetch('footer.html')
+		        .then(response => {
+		            if (response.ok) {
+		                return response.text();
+		            }
+		            throw new Error('Failed to load footer');
+		        })
+		        .then(data => {
+		            document.getElementById('footer').innerHTML = data;
+		        })
+		        .catch(error => console.error(error));
+		</script>
 	<!-- Footer section ends from here -->
 
 	<script>
