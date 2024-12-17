@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Workshop Agenda</title>
+
+	<!-- font Awesome CDN link -->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" />
+
+	<!-- External CSS -->
+	<link rel="stylesheet" href="style.css">
+	<link rel="stylesheet" href="agenda.css">
+
+	<!-- JQuery CDN link -->
+	<script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+</head>
+<body>
+	<!-- Navigation start -->
+	<nav>
+			<img src="img/neural_net.png" class="logo" alt="">
+			<!-- <img src="img/AMESlogoblack.png" class="logo" alt=""> -->
+
+			<div class="navigation">
+
+				<ul>
+					<i id="menu-close" class="fas fa-times"></i>
+					<li><a href="index.html" class="active">Home</a></li>
+					<!-- <li><a href="about.html">About Us</a></li> -->
+					<li><a href="agenda.html">In-Person Agenda</a></li>
+					<li><a href="logistics.html">Logistics</a></li>
+					<li><a href="virtualprimer.html">Virtual Primer</a></li>
+					<li><a href="recordings.html">Recordings</a></li>
+				</ul>
+
+				<img src="img/menu.png" id="menu-btn" alt="">
+			</div>
+	</nav>
+	<!-- Navigation ends -->
+
+
+	<!-- Hero section starts from here -->
+	<section id="about-home">
+		<h2>
+			Workshop Agenda
+		</h2>
+	</section>
+	<!-- Hero section ends from here -->
+
+
+	<!-- About section starts from here -->
+	<section id="about-container">
+		<div class="about-text">
+			<h2>
+				<i class="fas fa-file-pdf"></i> <br>
+				Agenda will be found here as a PDF.
+			</h2>
+		</div>
+	</section>
+	<!-- About section ends from here -->
+
+	<!-- Footer section starts from here -->
+	<footer>
+		<div class="footer-col">
+			<h3>Guides</h3>
+			<li>Literature Review</li>
+		</div>
+
+		<div class="copyright">
+			<p>
+				2024 | Website managed by <a href="" target="_blank">Ryan Felton</a>
+			</p>
+<!-- 			<div class="pro-links">
+				<i class="fab fa-facebook"></i>
+				<i class="fab fa-instagram"></i>
+				<i class="fab fa-linkedin-in"></i>
+			</div>
+ -->		</div>
+	</footer>
+	<!-- Footer section ends from here -->
+	
+	<script>
+		// Show menu links on burger click
+		$('#menu-btn').click(function(){
+			$('nav .navigation ul').addClass('active')
+		});
+
+		// Hide navbar on click function
+		$('#menu-close').click(function(){
+			$('nav .navigation ul').removeClass('active')
+		});
+	</script>
+</body>
+</html>
