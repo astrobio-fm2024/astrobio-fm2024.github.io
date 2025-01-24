@@ -114,7 +114,10 @@ nav .navigation ul li a:hover
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    text-align: center;
+    text-align: center; 
+/*    TEST*/
+
+
 }
 
 .text-background {
