@@ -50,7 +50,7 @@ nav
 nav .logo
 {
 	width: 130px;
-	cursor: pointer;
+/*	cursor: pointer;*/
 }
 
 nav .navigation {
@@ -134,14 +134,7 @@ nav .navigation ul li a:hover
     align-items: center; 
     gap: 20px; 
 /*    margin-top: 20px;*/
-
-
 }	
-
-#partner img {
-    max-width: 150px; 
-    height: auto; 
-}
 
 
 #home h2
@@ -167,10 +160,25 @@ nav .navigation ul li a:hover
 {
 	text-decoration: none;
 	font-size: 0.9rem;
-	padding: 13px 35px;
+	padding: 10px 35px;
+/*	background-color: #fff;*/
 	background-color: #fff;
 	font-weight: 600;
 	border-radius: 5px;
+}
+
+#partner a {
+	display: inline-block;
+	background-color: none;
+	padding: 0;
+	margin: 0 10px;
+	background-color: transparent;
+}
+
+#partner img {
+	display: block;
+    max-width: 150px; 
+    height: auto; 
 }
 
 #home a.blue
