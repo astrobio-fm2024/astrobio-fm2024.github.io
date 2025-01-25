@@ -130,9 +130,11 @@ nav .navigation ul li a:hover
 #partner
 {
     display: flex;
-    justify-content: right; 
+/*    justify-content: right; */
+	justify-content: flex-start;
     align-items: center; 
     gap: 20px; 
+    flex-wrap: wrap;
 /*    margin-top: 20px;*/
 }	
 
