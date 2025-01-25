@@ -181,12 +181,6 @@ nav .navigation ul li a:hover
     height: auto; 
 }
 
-#partner p {
-	word-wrap: break-word; /* Ensures long words or URLs break into the next line */
-    overflow-wrap: break-word; /* Same as word-wrap, for modern browsers */
-    word-break: break-word;
-}
-
 
 #home a.blue
 {
@@ -213,6 +207,18 @@ nav .navigation ul li a:hover
 	color: rgb(21, 21, 100);
 	background: #fff;
 }
+
+
+#partner p {
+	/*font-size: 1.6rem; 
+    max-width: 100%; 
+    margin: 0 10px;*/
+	word-wrap: break-word; 
+    overflow-wrap: break-word;
+    word-break: break-word;
+}
+
+
 
 
 /*------------- Hero section styling end --------------*/
