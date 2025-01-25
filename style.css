@@ -181,6 +181,13 @@ nav .navigation ul li a:hover
     height: auto; 
 }
 
+#partner p {
+	word-wrap: break-word; /* Ensures long words or URLs break into the next line */
+    overflow-wrap: break-word; /* Same as word-wrap, for modern browsers */
+    word-break: break-word;
+}
+
+
 #home a.blue
 {
 	color: #fff;
