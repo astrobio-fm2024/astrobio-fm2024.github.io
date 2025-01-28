@@ -158,7 +158,8 @@ nav .navigation ul li a:hover
 #home .btn
 {
 	margin-top: 30px;
-	margin-bottom: 35px;	
+	margin-bottom: 35px;
+	flex-wrap: wrap;
 }
 
 #home a
@@ -166,10 +167,13 @@ nav .navigation ul li a:hover
 	text-decoration: none;
 	font-size: 0.9rem;
 	padding: 10px 35px;
-/*	background-color: #fff;*/
 	background-color: #fff;
 	font-weight: 600;
 	border-radius: 5px;
+}
+
+#home .btn a {
+	font-size: clamp(0.8rem, 1.5vw, 1rem);
 }
 
 #partner a {
@@ -339,6 +343,11 @@ nav .navigation ul li a:hover
 {
 	padding: 8vw 8vw 8vw 8vw;
 	text-align: center;
+}
+
+#experts h1 {
+	font-size: clamp(1.2rem, 2.0vw, 2.5rem);
+
 }
 
 #experts .expert-box
