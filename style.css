@@ -49,8 +49,11 @@ nav
 
 nav .logo
 {
-	width: 130px;
-/*	cursor: pointer;*/
+/*	width: 130px;*/
+	width: clamp(50px, 20vw, 130px);
+    height: auto;
+    display: block;
+/*    margin: 0 auto;*/
 }
 
 nav .navigation {
@@ -181,6 +184,7 @@ nav .navigation ul li a:hover
 	display: block;
     max-width: 150px; 
     height: auto; 
+    width: clamp(50px, 20vw, 150px);
 }
 
 
