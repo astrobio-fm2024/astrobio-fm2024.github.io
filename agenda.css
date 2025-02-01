@@ -35,10 +35,10 @@
 #about-home h2
 {
 	color: #fff;
-	font-size: clamp(0.8rem, 2.5vw, 3rem);
+	font-size: clamp(1.5rem, 2.5vw, 3rem);
 	letter-spacing: 1px;
     background-color: rgba(0, 200, 240, 0.85);
-    padding: 0.5em; 
+    padding: 1vw; 
     display: inline-block;
     border-radius: 8px;	
 }
