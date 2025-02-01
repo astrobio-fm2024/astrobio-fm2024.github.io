@@ -14,7 +14,7 @@
 }
 
 .agenda #about-home {
-    background-image: linear-gradient(rgba(9, 5, 54, 0.2), rgba(5,4,46,0.1)), url("img/EEL.jpg");
+    background-image: linear-gradient(rgba(9, 5, 54, 0.2), rgba(5,4,46,0.4)), url("img/EEL.jpg");
 }
 
 .logistics #about-home {
@@ -22,7 +22,7 @@
 }
 
 .primer #about-home {
-    background-image: linear-gradient(rgba(9, 5, 54, 0.2), rgba(5,4,46,0.1)), url("img/onboard_decion_making_AI.png");
+    background-image: linear-gradient(rgba(9, 5, 54, 0.4), rgba(5,4,46,0.4)), url("img/onboard_decion_making_AI.png");
 }
 
 .recordings #about-home {
@@ -36,7 +36,7 @@
 	color: #fff;
 	font-size: clamp(1.5rem, 2.5vw, 3rem);
 	letter-spacing: 1px;
-    background-color: rgba(0, 200, 240, 0.85);
+/*    background-color: rgba(0, 200, 240, 0.85);*/
     padding: 1vw; 
     display: inline-block;
     border-radius: 8px;	
