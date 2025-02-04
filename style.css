@@ -378,6 +378,15 @@ nav .navigation ul li a:hover
   display: block; 
 }
 
+.adjust-headshot-david {
+  object-position: center top;
+}
+
+.adjust-headshot-caleb {
+/*  object-position: left bottom;*/
+	object-position: 15% 0px;
+}
+
 #experts .expert-box .profile:hover
 {
 	box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
